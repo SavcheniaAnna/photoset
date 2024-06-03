@@ -1,0 +1,73 @@
+*{box-sizing:border-box;
+		padding: 0;
+		margin: 0;}
+
+body{margin: 0px;
+	background: #ffb800;
+	overflow: hidden;}
+
+.grey{
+	background: #1e2327;
+	width: 42%;
+	height: 970px;}
+
+	#maintext{padding: 10% 0% 10% 0%;}
+	
+#text{position: relative;
+	left: 13%;
+	top: 8%;
+	line-height: 1.5;
+	width: 215px;
+	color:#DCDCDC;
+	font-family: Lato;}
+
+hr{width: 80px;
+	margin: 10% 0% 10% 0%;}
+	
+#container{position: relative;
+	top: -930px;
+	left: 297px;
+	display: grid;    
+	grid-template-columns: 25% 25% 25% 25%;
+	height: 800px;
+	width: 875px;
+	grid-template-rows: 25% 25% 25% 25%;}
+
+#one{ grid-column-start: 1;
+	grid-column-end: 2;}
+	
+#two{ grid-column-start: 2;
+	grid-column-end: 3;}
+	
+#three{grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;}
+
+#four{ grid-column-start: 4;
+	grid-column-end: 5;}
+	
+#five{grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;}
+
+#six{grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;}
+	
+#seven{grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 5;}
+	
+#eight{grid-row-start: 3;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 4;}
+
+#nine{grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;}
